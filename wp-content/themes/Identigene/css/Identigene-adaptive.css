@@ -1,0 +1,121 @@
+/**
+ * Tiamo Adaptive Basic Styles
+ *
+ * @package WordPress
+ * @subpackage Tiamo
+ * @since Tiamo 0.1
+ */
+
+@media screen and (max-width: 1200px) {
+#top_nav {
+	margin-top: 0px
+}
+..head-switch ul {
+	margin-left: 20px;
+}
+.head-bottom {
+	margin-top: 40px
+}
+.button-ofline {
+	display: none;
+}
+#text-10, #text-13 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+
+#top_nav {
+	display: none;
+}
+.head-htop {
+    height:auto;
+}
+#polylang-2 {
+	width: 53.8%;
+    margin: 0 auto;
+}
+.head-switch ul {
+    margin-left: 0px;
+}
+.head-logo {
+  margin-top: 13px;
+}
+.head-list {
+  margin-top: 7px;
+}
+.head-adress {
+    margin-top: 0px;
+}
+.first_cont {
+	text-align: center;
+	padding: 20px 20px 10px 20px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+#polylang-2 {
+	width: 100%;  
+	margin: 0 ; 
+}
+#text-4 {
+	text-align: left;
+}
+.head-adress {
+	width: 63%;
+    margin-left: 2.5%;
+}
+#text-2 {
+	text-align: left;
+}
+#text-9 {
+    text-align: center;
+    padding: 15px 0 15px;
+}
+#text-7, #text-11 {
+    max-width: 152px;
+    margin: 10px auto 0;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+
+
+}
+
+@media screen and (max-width: 505px) {
+.head-logo {
+    margin-top: 33px;
+}
+}
+
+@media screen and (max-width: 420px) {
+.head-adress {
+    width: 100%;
+    margin-left: 4.5%;
+}
+.head-logo {
+    margin-top: 15px;
+}
+
+}  
+
+@media screen and (max-width: 360px) {
+
+
+}
+
+@media screen and (max-width: 340px) {
+
+
+}  
+
+@media screen and (max-width: 320px) {
+
+}  

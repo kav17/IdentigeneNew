@@ -1,0 +1,224 @@
+# This file is distributed under the same license as the 4.2.x package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-03 21:40+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.2\n"
+"Project-Id-Version: 4.2.x\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+
+#: wp-content/themes/tiamo/page-about1.php:30
+msgid "Компания"
+msgstr "Company"
+
+#: wp-content/themes/tiamo/page-about1.php:31
+msgid "Команда"
+msgstr "Team"
+
+#: wp-content/themes/tiamo/page-about1.php:32
+msgid "Видеография"
+msgstr "Videography"
+
+
+#: wp-content/themes/tiamo/index.php:144
+msgid "Подробнее..."
+msgstr "Read more..."
+
+
+#: wp-content/themes/tiamo/header.php:50
+msgid "Сообщение"
+msgstr "Message"
+
+
+#: wp-content/themes/tiamo/home.php.php:64
+msgid "ВВЕРХ"
+msgstr "UPWARD"
+
+#: wp-content/themes/tiamo/home.php.php:20
+msgid "Hовости"
+msgstr "Blog"
+
+#: wp-content/themes/tiamo/home.php:47
+msgid "Последние проекты"
+msgstr "Latest projects"
+
+#: wp-content/themes/tiamo/home.php:95
+msgid "О нас"
+msgstr "About us"
+
+#: wp-content/themes/tiamo/home.php:27
+msgid "НАШИ УСЛУГИ"
+msgstr "OUR SERVICES"
+
+
+#: wp-content/themes/tiamo/home.php:65
+msgid "Конкурентная цена"
+msgstr "Competitive price"
+
+#: wp-content/themes/tiamo/home.php:69
+msgid "Отличное качество"
+msgstr "Great quality"
+
+#: wp-content/themes/tiamo/home.php:69
+msgid "продукции"
+msgstr "products"
+
+#: wp-content/themes/tiamo/home.php:75
+msgid "ПОЧЕМУ ВЫБИРАЮТ"
+msgstr "WHY CHOOSE"
+
+#: wp-content/themes/tiamo/home.php:75
+msgid "НАС"
+msgstr "US"
+
+#: wp-content/themes/tiamo/home.php:79
+msgid "Основная часть продукции"
+msgstr "Most of the products"
+
+#: wp-content/themes/tiamo/home.php:79
+msgid "заграничного происхождения"
+msgstr "of foreign origin"
+
+#: wp-content/themes/tiamo/home.php:83
+msgid "Собственный автопарк"
+msgstr "Own automobile park"
+
+#: wp-content/themes/tiamo/home.php:92
+msgid "СОБСТВЕННЫЙ АВТОПАРК"
+msgstr "OWN CAR PARK"
+
+#: wp-content/themes/tiamo/home.php:98
+msgid "автомобилей"
+msgstr "automobile"
+
+#: wp-content/themes/tiamo/home.php:98
+msgid "и прицепов"
+msgstr "and trailers"
+
+#: wp-content/themes/tiamo/home.php:99
+msgid "Своя ремонтная база"
+msgstr "Its repair facility"
+
+#: wp-content/themes/tiamo/home.php:107
+msgid "НАШИ ПРОИЗВОДИТЕЛИ"
+msgstr "OUR PRODUCERS"
+
+#: wp-content/themes/tiamo/home.php:108
+msgid "Кременчугский НПЗ"
+msgstr "Kremenchug OCF"
+
+#: wp-content/themes/tiamo/home.php:109
+msgid "Мозирский НПЗ"
+msgstr "Mozyr OCF"
+
+#: wp-content/themes/tiamo/home.php:110
+msgid "Волгоградский НПЗ"
+msgstr "Volgograd OCF"
+
+#: wp-content/themes/tiamo/home.php:123
+msgid "СТАТИСТИКА"
+msgstr "STATISTICS"
+
+#: wp-content/themes/tiamo/home.php:221
+msgid "КЛИЕНТЫ"
+msgstr "CUSTOMERS"
+
+#: wp-content/themes/tiamo/home.php:236
+msgid "НАГРАДЫ И СЕРТИФИКАТЫ"
+msgstr "AWARDS AND CERTIFICATES"
+
+
+
+#: wp-content/themes/tiamo/single.php:77
+msgid "Фото"
+msgstr "Foto"
+
+#: wp-content/themes/tiamo/single.php:78
+msgid "Видео"
+msgstr "Video"
+
+
+#: wp-content/themes/tiamo/functions.php:115
+msgid "Главная"
+msgstr "Home"
+
+#: wp-content/themes/tiamo/functions.php:122
+msgid "Страница %s"
+msgstr "Page %s"
+
+
+#: wp-content/themes/tiamo/single.php:36
+msgid "Рассчитать стоимость"
+msgstr "Calculate the cost"
+
+#: wp-content/themes/tiamo/single.php:40
+msgid "Купить"
+msgstr "Buy"
+
+#: wp-content/themes/tiamo/single.php:42
+msgid "Описание услуги"
+msgstr "Description of services"
+
+#: wp-content/themes/tiamo/single.php:43
+msgid "Характеристики"
+msgstr "Characteristics"
+
+#: wp-content/themes/tiamo/single.php:44
+msgid "Оплата и доставка"
+msgstr "Payment and delivery"
+
+#: wp-content/themes/tiamo/single.php:48
+msgid "Оплата"
+msgstr "Payment"
+
+#: wp-content/themes/tiamo/single.php:68
+msgid "ПРОДУКЦИЯ"
+msgstr "PRODUCTS"
+
+#: wp-content/themes/tiamo/single.php:101
+msgid "ПРОДУКТ"
+msgstr "PRODUCT"
+
+#: wp-content/themes/tiamo/single.php:108
+msgid "Скачать тех документацию"
+msgstr "Download the documentation"
+
+#: wp-content/themes/tiamo/single.php:115
+msgid "Описание"
+msgstr "Description"
+
+#: wp-content/themes/tiamo/single.php:156
+msgid "Скачать"
+msgstr "Download"
+
+
+#: wp-content/themes/tiamo/partials/sitemap.php:2
+msgid "Автор"
+msgstr "Author"
+
+#: wp-content/themes/tiamo/partials/sitemap.php:13
+msgid "Страницы"
+msgstr "Pages"
+
+#: wp-content/themes/tiamo/partials/sitemap.php:26
+msgid "Записи"
+msgstr "Posts"
+
+
+#: wp-content/themes/tiamo/footer.php:32
+msgid "Телефоны:"
+msgstr "Phones:"
+
+#: wp-content/themes/tiamo/footer.php:44
+msgid "Разработан и поддерживается компанией"
+msgstr "Designed and maintained by company"
+
+#: wp-content/themes/tiamo/footer.php:73
+msgid "Закрыть"
+msgstr "Close"
