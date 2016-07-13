@@ -7,7 +7,7 @@
  * @package WordPress
  * @subpackage Identigene
  * @since Identigene 0.1
- */     /////////////////////////////////////////////////////////////////////////////
+ */     
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
