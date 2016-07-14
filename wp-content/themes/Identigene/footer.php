@@ -14,7 +14,8 @@
 <footer>	 
  <div class="container">	
     <div class='row f-footer'>
-            <div class="col-sm-3">
+        <div class="col-sm-12"> 
+            <div class="col-sm-3">              
                 <div class="foot-logo">
                         <a href="<?php echo home_url(); ?>">
                             <?php
@@ -27,7 +28,7 @@
                     wp_reset_postdata();
                   ?>
                         </a>
-                </div>
+                </div>              
             </div>
             <div class="col-sm-9"> 
                 <div class="col-sm-12">        
@@ -50,7 +51,7 @@
                 </div>            
             </div>
 
-         
+     </div>    
 	</div>                        
  </div>
 </footer>
