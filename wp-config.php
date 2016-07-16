@@ -18,24 +18,44 @@
  * @package WordPress
  */
 
+if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) {
+	include( dirname( __FILE__ ) . '/wp-config-local.php' );
+}
+else {
+
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'identigenefull');
+define('DB_NAME', 'vagiton_inter');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'vagiton_inter');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '2egk5ggp');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'vagiton.mysql.ukraine.com.ua');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8mb4');
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define('DB_COLLATE', '');
+
+/**
+ * Для разработчиков: Режим отладки WordPress.
+ *
+ * Измените это значение на true, чтобы включить отображение уведомлений при разработке.
+ * Разработчикам плагинов и тем настоятельно рекомендуется использовать WP_DEBUG
+ * в своём рабочем окружении.
+ * 
+ * Информацию о других отладочных константах можно найти в Кодексе.
+ *
+ * @link https://codex.wordpress.org/Debugging_in_WordPress
+ */
+define('WP_DEBUG', false);
+
+}
 
 /**#@+
  * Уникальные ключи и соли для аутентификации.
@@ -65,18 +85,7 @@ define('NONCE_SALT',       'jpFYnNlR!/KfR 4w7`dVn[-i ?Egdznn#(&Ryb Q0$L`WzdiYJ*e
  */
 $table_prefix  = 'wp_';
 
-/**
- * Для разработчиков: Режим отладки WordPress.
- *
- * Измените это значение на true, чтобы включить отображение уведомлений при разработке.
- * Разработчикам плагинов и тем настоятельно рекомендуется использовать WP_DEBUG
- * в своём рабочем окружении.
- * 
- * Информацию о других отладочных константах можно найти в Кодексе.
- *
- * @link https://codex.wordpress.org/Debugging_in_WordPress
- */
-define('WP_DEBUG', false);
+
 
 /* Это всё, дальше не редактируем. Успехов! */
 
