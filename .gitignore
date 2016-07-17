@@ -15,6 +15,7 @@ wp-activate.php
 wp-blog-header.php
 wp-comments-post.php
 wp-config-sample.php
+wp-config-local.php
 wp-cron.php
 wp-links-opml.php
 wp-load.php
@@ -36,7 +37,6 @@ wp-content/plugins/[etc.]
 ######################################
 # Wordpress specific untracked files #
 ######################################
-wp-config-local.php
 wp-content/uploads/
 wp-content/upgrade/
 
