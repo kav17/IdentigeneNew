@@ -7,7 +7,7 @@
  * @package WordPress
  * @subpackage Identigene
  * @since Identigene 0.1
- */     
+ */
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -21,7 +21,17 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<script src='<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.2.min.js'></script>
 	<script src='<?php echo get_template_directory_uri(); ?>/js/Identigene.js'></script>
-
+	
+	<?php session_start(); ?>
+	<?php if ( is_home() and !strlen( $_SESSION['is-first'] ) ): ?>
+		<?php
+  			$_SESSION['is-first'] = "no";
+  		?>
+		<script src="//api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/custom.css" />
+	<?php endif; ?>
+	
 	<?php wp_head(); ?>
 </head>
 

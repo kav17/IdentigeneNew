@@ -16,7 +16,7 @@
  * @link https://codex.wordpress.org/Editing_wp-config.php
  *
  * @package WordPress
- */
+ */ //
 
 if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) {
 	include( dirname( __FILE__ ) . '/wp-config-local.php' );
