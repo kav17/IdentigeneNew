@@ -3,3 +3,4 @@
 ignore/
 .ignore/
 wp-config-local.php
+wp-config.php
